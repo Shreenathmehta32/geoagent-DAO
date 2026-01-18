@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Environment variables (CRITICAL - NEVER COMMIT)
+.env
+.env.local
+.env.production
+*.env
+
+# Build outputs
+dist/
+build/
+out/
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+.cache/
+
+# Agent logs
+agent/logs/
+
+# Database
+*.db
+*.sqlite
+
+# Deployment
+deployments/
